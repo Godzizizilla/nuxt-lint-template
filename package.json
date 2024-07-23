@@ -8,7 +8,9 @@
     "generate": "nuxt generate",
     "preview": "nuxt preview",
     "postinstall": "nuxt prepare",
-    "lint": "eslint ."
+    "lint": "eslint .",
+    "lint:style": "stylelint '**/*.vue'",
+    "prettier": "prettier --write ."
   },
   "dependencies": {
     "nuxt": "^3.12.4",
